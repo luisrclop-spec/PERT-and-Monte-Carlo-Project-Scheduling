@@ -140,7 +140,7 @@ def calcular_pert(tabla, columna_duracion):
 #------------------------------------------------------------------------------------------------------------------------------------------------------------------
 # 1) Leemos Excel
 
-EXCEL = "Caso_Prueba.xlsx"
+EXCEL = "Caso_Estudio.xlsx"
 SHEET = "Inputs"
 
 tabla = pd.read_excel(EXCEL, sheet_name=SHEET)
